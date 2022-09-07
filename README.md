@@ -13,4 +13,4 @@
 <img src = 'Screenshots/Screen Shot 2022-09-07 at 8.50.19 PM.png' width = '300'>
 
 ### - [0. 나가기] 메뉴가 잘 실행되는가?
-<img src = 'Screenshots/Screen Shot 2022-09-07 at 8.51.26 PM.png' width = '300'>
+<img src = 'Screenshots/Screen Shot 2022-09-07 at 9.29.40 PM.png' width = '300'>
