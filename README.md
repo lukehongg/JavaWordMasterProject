@@ -14,3 +14,8 @@
 
 ### - [0. 나가기] 메뉴가 잘 실행되는가?
 <img src = 'Screenshots/Screen Shot 2022-09-07 at 9.29.40 PM.png' width = '300'>
+
+## Java CRUD Pt.1 - Full Run Example Screenshot
+<img src = 'Screenshots/Screen Shot 2022-09-07 at 9.38.43 PM.png' width = '300'>
+<img src = 'Screenshots/Screen Shot 2022-09-07 at 9.38.59 PM.png' width = '300'>
+<img src = 'Screenshots/Screen Shot 2022-09-07 at 9.39.13 PM.png' width = '300'>
