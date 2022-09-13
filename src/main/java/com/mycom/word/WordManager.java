@@ -43,6 +43,15 @@ public class WordManager {
                 //show list
                 wordCRUD.listAll();
             }
+            else if(menu == 2){
+                //search words by level
+                wordCRUD.searchLevel();
+            }
+            else if(menu == 3){
+                //search words (by embedded letters/words)
+                wordCRUD.searchWord();
+            }
+
             else if(menu == 4){
                 //create WORD data
                 wordCRUD.addItem();
