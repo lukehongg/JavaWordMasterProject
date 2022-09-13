@@ -31,17 +31,36 @@ public class WordManager {
 
     //Starting point of WordManager()
     public void start(){
+
+        wordCRUD.loadFile();
         while(true){ // true until input 0 is given
             int menu = selectMenu();
-            if(menu == 0) break;
-            if(menu == 1){
+            if(menu == 0) {
+                System.out.println("\n프로그램 종료!, 다음에 만나요~");
+                break;
+            }
+            else if(menu == 1){
                 //show list
                 wordCRUD.listAll();
             }
-            if(menu == 4){
+            else if(menu == 4){
                 //create WORD data
-                wordCRUD.addWord();
+                wordCRUD.addItem();
             }
+
+            else if(menu == 5){
+                //update WORD data
+                wordCRUD.updateItem();
+            }
+            else if(menu == 6){
+                //delete WORD data
+                wordCRUD.deleteItem();
+            }
+            else if(menu == 7){
+                //save data (file)
+                wordCRUD.saveFile();
+            }
+
 
         }
     }
